@@ -16,11 +16,9 @@ This is a simple profile page built using Flask and Docker. It includes:
 
 ## 🐳 Run with Docker (Port: 5007)
 
-### 1. Build the Docker image
-
 ```bash
 docker build -t flask-profile-app .
-docker run -d -p 5007:5000 flask-profile-app
+docker run -d -p 5007:5007 flask-profile-app
 
 http://localhost:5007
 ```
